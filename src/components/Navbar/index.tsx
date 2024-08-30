@@ -135,7 +135,7 @@ function Navbar() {
           {auth.isAuthenticated ? (
             <>
               <div className="lg:h-[5rem] h-[2.5rem] flex items-center text-[0.8rem] px-5 cursor-pointer">
-                <span className="mr-2">{auth?.username}</span>
+                <span className="mr-2">{auth.user?.username}</span>
                 <button className="logout-btn" onClick={handleLogout}>
                   Logout
                 </button>
