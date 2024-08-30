@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import useAxios from '../../hooks/useAxios'; 
 import { Product } from '../../types'; 
 import ProductCard from '../ProductCard';
